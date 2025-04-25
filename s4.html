@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Code With Mosh - Docker Course</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet"/>
+<style>
+            .video-container {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+            }
+            .drive-iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        </style>
+</head>
+<body>
+<header>
+<nav class="wrapper">
+<i class="fa-solid fa-angle-left arrow" id="left"></i>
+<ul class="carousel">
+<!-- Navigation items will be inserted here -->
+<li class="card"><a href="index.html">1. Getting Started</a></li>
+<li class="card"><a href="s2.html">2. Introduction to Docker</a></li>
+<li class="card"><a href="s3.html">3. The Linux Command Line</a></li>
+<li class="card" id="actuel"><a href="s4.html">4. Building Images</a></li>
+<li class="card"><a href="s5.html">5. Working with Containers</a></li>
+<li class="card"><a href="s6.html">6. Running Multicontainer Applications</a></li>
+<li class="card"><a href="s7.html">7. Deploying Applications</a></li></ul>
+<i class="fa-solid fa-angle-right arrow" id="right"></i>
+</nav>
+</header>
+<!-- Navigation buttons -->
+<button class="arrow-button" id="left-arrow" onclick="navigate('s3.html')">←</button>
+<button class="arrow-button" id="right-arrow" onclick="navigate('s5.html')">→</button>
+<main>
+<!-- Video sections will be inserted here -->
+
+<section class="section" id="section28">
+<h2 class="video-title">1. Introduction</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1TlhF3TL9xswOr_8_54VIhZdDBy3tPN1p/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 0)">Previous Video</button>
+<button onclick="navigateToSection('next', 0)">Next Video</button>
+<textarea class="notes-input" id="notes28" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section29">
+<h2 class="video-title">2. Images and Containers</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1vfRBqKYPbJjKP6PvXUlVh1i92Q7neATz/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 1)">Previous Video</button>
+<button onclick="navigateToSection('next', 1)">Next Video</button>
+<textarea class="notes-input" id="notes29" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section30">
+<h2 class="video-title">3. Sample Web Application</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1tXqrlsbwjQ781cnxVbbWZt61dBx5bQ0o/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 2)">Previous Video</button>
+<button onclick="navigateToSection('next', 2)">Next Video</button>
+<textarea class="notes-input" id="notes30" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section31">
+<h2 class="video-title">4. Dockerfile Instructions</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1P--iBTXfRaHGQWCLhqo0TAtsNXyffPNd/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 3)">Previous Video</button>
+<button onclick="navigateToSection('next', 3)">Next Video</button>
+<textarea class="notes-input" id="notes31" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section32">
+<h2 class="video-title">5. Choosing the Right Base Image</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1sR0AREUEWcjGzjXBl4PsWldGVSV_otd_/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 4)">Previous Video</button>
+<button onclick="navigateToSection('next', 4)">Next Video</button>
+<textarea class="notes-input" id="notes32" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section33">
+<h2 class="video-title">6. Copying Files and Directories</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1TyQMyOmFp8Nk8k_vZIImTjPkw9VwaROr/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 5)">Previous Video</button>
+<button onclick="navigateToSection('next', 5)">Next Video</button>
+<textarea class="notes-input" id="notes33" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section34">
+<h2 class="video-title">7. Excluding Files and Directories</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1Gs3D4w4455Kmc0tVbZ400H6hjl25RCx6/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 6)">Previous Video</button>
+<button onclick="navigateToSection('next', 6)">Next Video</button>
+<textarea class="notes-input" id="notes34" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section35">
+<h2 class="video-title">8. Running Commands</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1zK3GBiIRMo_e8D7j4kCNNK34foL8N78u/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 7)">Previous Video</button>
+<button onclick="navigateToSection('next', 7)">Next Video</button>
+<textarea class="notes-input" id="notes35" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section36">
+<h2 class="video-title">9. Setting Environment Variables</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1RPscbC-UNe9SGo8fTNUKrWvm0H6hP0Uh/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 8)">Previous Video</button>
+<button onclick="navigateToSection('next', 8)">Next Video</button>
+<textarea class="notes-input" id="notes36" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section37">
+<h2 class="video-title">10. Exposing Ports</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1QIaAYmc9kfus-R8TlzMnEsBR-J40r3ua/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 9)">Previous Video</button>
+<button onclick="navigateToSection('next', 9)">Next Video</button>
+<textarea class="notes-input" id="notes37" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section38">
+<h2 class="video-title">11. Setting the User</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/162OjvVhBuR0qI2jYq5go58_1uYXcnKY0/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 10)">Previous Video</button>
+<button onclick="navigateToSection('next', 10)">Next Video</button>
+<textarea class="notes-input" id="notes38" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section39">
+<h2 class="video-title">12. Defining Entrypoints</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1ZgVQEa6gLYpZyyamHkjk4eVUip6OWaaq/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 11)">Previous Video</button>
+<button onclick="navigateToSection('next', 11)">Next Video</button>
+<textarea class="notes-input" id="notes39" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section40">
+<h2 class="video-title">13. Speeding Up Builds</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1IZrwKxTErGLlWGVkdMywJq8xdLw-XRo_/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 12)">Previous Video</button>
+<button onclick="navigateToSection('next', 12)">Next Video</button>
+<textarea class="notes-input" id="notes40" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section41">
+<h2 class="video-title">14. Removing Images</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1FhU4N45pnAaIHyJbGAMKMl-gmqZLoE0O/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 13)">Previous Video</button>
+<button onclick="navigateToSection('next', 13)">Next Video</button>
+<textarea class="notes-input" id="notes41" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section42">
+<h2 class="video-title">15. Tagging Images</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1P0k2iwnskag7-HYxXfWEhoZv-WzcgIZV/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 14)">Previous Video</button>
+<button onclick="navigateToSection('next', 14)">Next Video</button>
+<textarea class="notes-input" id="notes42" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section43">
+<h2 class="video-title">16. Sharing Images</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/1K9aWxnDsSL5Md5F3VloDIt8PHkCT1awz/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 15)">Previous Video</button>
+<button onclick="navigateToSection('next', 15)">Next Video</button>
+<textarea class="notes-input" id="notes43" placeholder="Write your notes here..."></textarea>
+</section>
+<section class="section" id="section44">
+<h2 class="video-title">17. Saving and Loading Images</h2>
+<div class="video-container">
+<iframe allow="autoplay" allowfullscreen="" class="drive-iframe" src="https://drive.google.com/file/d/15HIrzADBX8-GiN8gHA_pkNPZx-Yhldnl/preview">
+</iframe>
+</div>
+<button class="complete-btn">Mark as Complete</button>
+<button class="unmark-btn">Unmark</button>
+<button onclick="navigateToSection('prev', 16)">Previous Video</button>
+<button onclick="navigateToSection('next', 16)">Next Video</button>
+<textarea class="notes-input" id="notes44" placeholder="Write your notes here..."></textarea>
+</section>
+</main>
+<!-- Footer elements -->
+<div class="footer-buttons">
+<button id="backToTop" style="display: none;">
+<i class="fas fa-arrow-up"></i>
+</button>
+<button id="exportButton">
+<i class="fa-solid fa-download"></i>
+</button>
+<input accept=".json" id="importButton" type="file"/>
+<button id="importDataButton">
+<i class="fa-solid fa-upload"></i>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
